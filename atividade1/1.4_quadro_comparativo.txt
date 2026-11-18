@@ -1,0 +1,11 @@
+ATIVIDADE 1 - Similaridade (3 cores mais parecidas) - 10 milhoes de buscas
++--------------------+------------+---------+
+| Versao             |  Tempo (s) | Speedup |
++--------------------+------------+---------+
+| Linear             |   0.474666 |   1.00x |
+| Paralela 1 thr.    |   0.418788 |   1.13x |
+| Paralela 2 thr.    |   0.210656 |   2.25x |
+| Paralela 4 thr.    |   0.106765 |   4.45x |
+| Paralela 8 thr.    |   0.055744 |   8.52x |
+| Paralela 16 thr.   |   0.055277 |   8.59x |
++--------------------+------------+---------+
